@@ -143,6 +143,7 @@ for i in range(0, 2):
                 sheet["J"+str(index)].value = sheet2["B"+str(j)].value
                 sheet["K"+str(index)].value = sheet2["C"+str(j)].value
             index += 1
+        sheet.sheet_view.zoomScale = 220
         wb.save('reconciling.xlsx')
 
 print("Complete")

@@ -1,4 +1,4 @@
-Study type (facetalk, wls, awl):
+Study type (facetalk, wls, awl, ewl):
 
 Number of trials:
 

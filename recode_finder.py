@@ -18,7 +18,7 @@ def main(output_file):
     except:
         print("No study given in config file. Make sure to put the study type on the second line")
         exit(1)
-    if not study.strip().lower() in ["facetalk", "wls", "awl"]:
+    if not study.strip().lower() in ["facetalk", "wls", "awl", "ewl"]:
         print("Invalid study \"" + study + "\" in config file.")
         exit(1)
     else:
@@ -32,6 +32,8 @@ def main(output_file):
         cols = 15
     elif study in ["awl"]:
         cols = 21
+    elif study in ["ewl"]:
+        cols = 23
 
     path = os.getcwd()
     input_path_1 = path + "/OUTPUT/"

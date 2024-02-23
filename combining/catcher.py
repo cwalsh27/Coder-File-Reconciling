@@ -22,7 +22,7 @@ def main():
     except:
         print("No study given in config file. Make sure to put the study type on the second line")
         exit(1)
-    if not study.strip().lower() in ["facetalk", "wls", "awl"]:
+    if not study.strip().lower() in ["facetalk", "wls", "awl", "ewl"]:
         print("Invalid study \"" + study[:-1] + "\" in config file.")
         exit(1)
     try:
@@ -167,8 +167,8 @@ def main():
                 b += 1
                 # highlights cells and indexes trials
                 row[0].fill = b_fill
-                sheet["P" + str(row_num + 1)] = b
-                sheet["P" + str(row_num + 1)].fill = b_fill
+                sheet["R" + str(row_num + 1)] = b
+                sheet["R" + str(row_num + 1)].fill = b_fill
             if row[0].value == "S":
                 s += 1
             row_num += 1

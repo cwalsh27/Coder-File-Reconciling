@@ -14,4 +14,4 @@ openpyxl and pandas required
 
 Detailed documentation: https://docs.google.com/document/d/1qQ_1k2Pztp9nJqALFZzL_LHP__YPUV71lNhcq7AJVfo/edit
 
-I did not make the DatavyuToSupercoder files or most of the code for combining.py
+I did not make the DatavyuToSupercoder files or most of the code for combining.py. The initial structure of the reconciling system is accredited to Tyler Hecht, whom this repository is forked from. I adapted the combining.py system and his reconciler for compatibility with new studies at SLAM Lab, in addition to expanding the reconciler so that certain manual processes assigned to research assistants became automated. 
